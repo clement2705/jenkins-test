@@ -12,6 +12,7 @@
     "test2": "mocha"
   },
   "dependencies": {
+    "assert": "^1.4.1",
     "babel-core": "^6.14.0",
     "babel-loader": "^6.2.5",
     "babel-plugin-relay": "^1.1.0",
@@ -20,7 +21,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.5.0",
     "babel-relay-plugin": "^0.11.0",
-    "assert": "^1.4.1",
+    "mocha": "^3.5.0",
     "request": "^2.81.0"
   },
   "devDependencies": {
@@ -28,6 +29,7 @@
     "babel-eslint": "^7.2.3",
     "eslint": "^4.3.0",
     "eslint-config-prettier": "^2.3.0",
-    "eslint-plugin-import": "^2.7.0"
+    "eslint-plugin-import": "^2.7.0",
+    "mocha-junit-reporter": "^1.13.0"
   }
 }
