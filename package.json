@@ -9,8 +9,7 @@
   "version": "0.1.0",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register",
-    "test2": "mocha",
-    "start": "babel-node ./server.js"
+    "test2": "mocha"
   },
   "dependencies": {
     "babel-core": "^6.14.0",
