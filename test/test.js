@@ -16,4 +16,17 @@ describe("mocha tests", function () {
     assert.equal(0, 0);
     done();
   });
+
+  it("merged from any branch initial commit", function (done) {
+    //expect(response.statusCode).toBe(200);
+    assert.equal(0, 0);
+    done();
+  });
+
+  it("merged from any branch", function (done) {
+    //expect(response.statusCode).toBe(200);
+    assert.equal(0, 0);
+    done();
+  });
+  
 });
