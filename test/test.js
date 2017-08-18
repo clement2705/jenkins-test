@@ -23,7 +23,7 @@ describe("mocha tests", function () {
     done();
   });
 
-  it("merged from any branch", function (done) {
+  it("merged from branch test5", function (done) {
     //expect(response.statusCode).toBe(200);
     assert.equal(0, 0);
     done();
