@@ -17,5 +17,11 @@ describe("mocha tests", function () {
     assert.equal(0, 0);
     done();
   });
+
+  it("in test jenkins branch", function (done) {
+    //expect(response.statusCode).toBe(200);
+    assert.equal(0, 0);
+    done();
+  });
   
 });
